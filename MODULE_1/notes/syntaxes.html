@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"> <!--defines how your web browser is format-->
+<head>
+    <!--Meta tags are page data tags-->
+    <meta charset="UTF-8">
+    <!--Responsive Design for Mobile Devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Control How Your Page Is Displayed in Search Results-->
+    <meta name="notes" content="This is a HTML code Module 2 practice">
+    <!--Set Author or Page Info-->
+    <meta name="author" content="Aiko Tabako">
+    <title>Module 2 Notes</title>
+</head>
+<body>
+    <!-- emmet for this is  div.Types>dl>(dt+dd>br)+(dt+dd>br)-->
+    <div class="Types">
+        <dl>
+            <dt>Container Tags</dt>
+            <dd>May open and closing tag
+                <br>&lt;p&gt;... &lt;\p&gt; - <i>&lt;p&gt;</i>:opening tags and <i>&lt;/p&gt;</i> is closing tags
+            </dd>
+            
+            <dt>Empty Tags</dt>
+            <dd>No other info pero pede may attributes
+                <br>&lt;img&gt; - can have class, size, etc. inside
+            </dd>
+
+        </dl>
+    </div>
+
+    <!--div.attributes>dt+dd>br+p[style="text-indent:15px"]-->
+    <div class="attributes">
+        <dt>Attributes</dt>
+        <dd>Additional values to configure elements
+            <br>Sample
+            <p style="text-indent:15px;">&lt; body bgcolor="red" &gt; - where bgcolor is the attribute</p>
+        </dd>
+    </div>
+
+    <!--div.Headings>(dt+dd)+h1{Heading 1}+h2{Heading 2}+h3{Heading 3}+h4{Heading 4}+h5{Heading 5}+h6{Heading 6}-->
+    <div class="Headings">
+        <dt>Headings</dt>
+        <dd>Similar to the smaller sections or headings and subheadings of a book</dd>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+
+    <!--div.Fonts>dt+dd+ol>li*3>dt+dd-->
+    <div class="Fonts">
+        <dt>Font Tags</dt>
+        <dd>Putting the font attributes is an outdated way, We usually use CSS nowadays</dd>
+        
+        <ol>
+            Three important attributes
+            <li>
+                <dl>
+                    <dt>Face</dt>
+                    <dd>font family or style</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>Color</dt>
+                    <dd>color of the text</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>Size</dt>
+                    <dd></dd>
+                </dl>
+            </li>
+        </ol>
+    </div>
+
+
+    <div class="Paths">
+        <dt>Paths</dt>
+        <dd>Addresses of a computer; Two types of path:</dd>
+        <ol>
+            <li>
+                <dt>Relative Path</dt>
+                <dd>Specifies the location of the file containing the link. <br>
+                Sample</dd>
+                <a href="about.html">AIKS</a><!-- Sample <a href="index.html"-->
+                <a href ="../Resume_Labwork/main.html">Resume</a>
+                 <!-- pag ibang folder href="folder name/hmtl name"-->
+                 <!-- "." or ".." means to go up one folder level-->
+            </li>
+            <li>
+                <dt>Absolute Path</dt>
+                <dd>Specifies the location of the complete path
+                    <br> Sample
+                </dd>
+                <a href="file///C:\Users\aikot\OneDrive\Pictures\Screenshots 1\Screenshot 2025-05-16 090856.png">Ss</a> 
+                <!--Will not work when live server-->
+            </li>
+        </ol>
+    </div>
+
+
+</body>
+</html>
