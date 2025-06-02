@@ -34,7 +34,7 @@ max-width: 1000px;
   margin: 0 auto;
 }
 
-.Pers, .Contacts, .Educ, .file, .additional, .Divider,{
+.Pers, .Contacts, .Educ, .file, .additional, .Divider {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
